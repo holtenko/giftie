@@ -4,7 +4,7 @@
     <img src="../assets/images/bird.png" alt="" class="bird">
     <img src="../assets/images/star-1.png" alt="" class="star">
     <img src="../assets/images/star-2.png" alt="" class="star second">
-    <img class="heart" src="../assets/images/love-heart.png" alt="">
+    <img class="birthday" src="../assets/images/happy-birthday.png" alt="">
     <div class="main">
       <h1 class="title">{{ title }}</h1>
       <p class="message" v-for="message in messages" :key="message.key">{{ message.wording }}</p>
@@ -71,15 +71,20 @@ export default {
   width: 320px;
   height: 180px;
 }
+.birthday {
+  display: block;
+  width: 100vw;
+  height: 97vw;
+}
 .star {
   position: absolute;
   top: 160px;
   right: 50px;
 }
 .star.second {
-  top: 350px;
+  top: 50px;
   right: auto;
-  left: 50px;
+  left: 200px;
 }
 .main {
   margin-top: 20px;
