@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { GLOBAL_KEYS, IS_SHOW_RESTART } from '../gift.setting.js';
+import { GLOBAL_KEYS, IS_SHOW_RESTART } from '@/gift.setting';
 export default {
   name: 'Gift',
   data() {

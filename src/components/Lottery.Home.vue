@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { homeConfig } from '../gift.setting.js';
+import { homeConfig } from '@/gift.setting';
 export default {
   name: 'LotteryHome',
   data() {

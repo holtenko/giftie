@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { GLOBAL_KEYS, gifts, homeConfig } from '../gift.setting.js';
+import { GLOBAL_KEYS, gifts, homeConfig } from '@/gift.setting';
 export default {
   name: 'LotteryTurntable',
   data() {
