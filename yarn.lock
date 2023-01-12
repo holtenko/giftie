@@ -4,19 +4,19 @@
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13":
   version "7.12.13"
-  resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.12.13.tgz?cache=0&sync_timestamp=1612314620252&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.12.13.tgz"
+  resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.12.13.tgz?cache=0&sync_timestamp=1612314620252&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
   integrity sha1-3PyCa+72XnXFDiHTg319lXmN1lg=
   dependencies:
     "@babel/highlight" "^7.12.13"
 
 "@babel/compat-data@^7.12.13":
   version "7.12.13"
-  resolved "https://registry.npm.taobao.org/@babel/compat-data/download/@babel/compat-data-7.12.13.tgz?cache=0&sync_timestamp=1612314879614&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcompat-data%2Fdownload%2F%40babel%2Fcompat-data-7.12.13.tgz"
+  resolved "https://registry.npm.taobao.org/@babel/compat-data/download/@babel/compat-data-7.12.13.tgz?cache=0&sync_timestamp=1612314879614&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcompat-data%2Fdownload%2F%40babel%2Fcompat-data-7.12.13.tgz#27e19e0ed3726ccf54067ced4109501765e7e2e8"
   integrity sha1-J+GeDtNybM9UBnztQQlQF2Xn4ug=
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.0":
+"@babel/core@^7.11.0":
   version "7.12.13"
-  resolved "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.12.13.tgz?cache=0&sync_timestamp=1612314799232&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.12.13.tgz"
+  resolved "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.12.13.tgz?cache=0&sync_timestamp=1612314799232&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.12.13.tgz#b73a87a3a3e7d142a66248bf6ad88b9ceb093425"
   integrity sha1-tzqHo6Pn0UKmYki/atiLnOsJNCU=
   dependencies:
     "@babel/code-frame" "^7.12.13"
