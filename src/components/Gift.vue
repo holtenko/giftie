@@ -30,7 +30,7 @@ export default {
     },
     replay() {
       localStorage.removeItem(GLOBAL_KEYS.EXIST_KEY);
-      location.replace('/');
+      location.replace(process.env.BASE_URL);
     },
   },
   mounted() {
