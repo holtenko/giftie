@@ -30,12 +30,12 @@ export const homeConfig = {
 // 图片放在 public/images 中，建议是正方形，否则影响视觉体验
 // name 是礼物的全称；alias 是礼物的简称（用来显示在抽奖方格里）
 export const gifts = [
-  { key: 'q', name: '全身按摩(30min)', alias: '全身按摩', image: './images/spa.png',  description: '「经典迷人色彩，彰显奢华魅力」' },
-  { key: 'e', name: '兰蔻小黑瓶套装', alias: '小黑瓶套装', image: './images/spa.png',  description: '「强维稳，快修护」' },
-  { key: 'r', name: '520红包', alias: '520', image: './images/spa.png',  description: '“想给你唱一百首情歌”' },
-  { key: 'w', name: '黄金(10g)', alias: '黄金(10g)', image: './images/gold.png',  description: '“为你承包一辈子的 VIP”' },
-  { key: 't', name: 'Dior星空套装', alias: 'Dior星空', image: './images/gold.png',  description: '「百变唇妆，精美雕琢」' },
-  { key: 'y', name: '1314红包', alias: '1314', image: './images/gold.png',  description: '“从今往后，我都会在你旁边”' },
-  { key: 'u', name: 'UR购物券：¥1,000', alias: 'UR', image: './images/gold.png',  description: '“UR！买！”' },
-  { key: 'i', name: 'Dyson美发套装', alias: '戴森', image: './images/gold.png',  description: '「不同造型需求，全面满足」' },
+  { key: 'q', name: '全身按摩(30min)', alias: '按摩(30min)', image: './images/spa.png',  description: '「奢华享受, 感受轻松」' },
+  { key: 'e', name: 'TASAKI BalanceCharm项链', alias: 'TASAKI', image: './images/tasaki.png',  description: '「定格优雅, 风格隽永」' },
+  { key: 'r', name: '全定制旅行', alias: '定制旅行', image: './images/travel.png',  description: '「说走就走, 私享定制」' },
+  { key: 'i', name: 'LAMER精华乳霜30ml', alias: 'LAMER乳霜', image: './images/lamer.png',  description: '「柔韧修护, 纵享年轻」' },
+  { key: 'w', name: '黄金(10g)', alias: '黄金(10g)', image: './images/gold.png',  description: '「金诚可贵, 情比金坚」' },
+  { key: 't', name: '洗碗券x12', alias: '洗碗券x12', image: './images/wash.png',  description: '「每月一次, 轻松自在」' },
+  { key: 'y', name: '1314红包', alias: '1314', image: './images/money.png',  description: '「从今往后，我都会在你旁边」' },
+  { key: 'u', name: 'YSL小金条口红', alias: 'YSL小金条', image: './images/ysl.png',  description: '「直击你，非45°的美」' },
 ];

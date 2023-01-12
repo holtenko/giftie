@@ -61,7 +61,7 @@ export default {
         return {
           fullName: item.name,
           name: item.alias,
-          img: require(`../../public${item.image}`),
+          img: require(`../../public${item.image.slice(1)}`),
           top: '80%',
         };
       });
