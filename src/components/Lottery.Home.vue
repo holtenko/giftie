@@ -52,7 +52,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 200px 0 0 0;
+  padding: 160px 0 0 0;
 }
 .cloud {
   position: absolute;
@@ -64,12 +64,6 @@ export default {
   left: 30px;
   top: 100px;
   width: 90px;
-}
-.heart {
-  display: block;
-  margin-top: 20px;
-  width: 320px;
-  height: 180px;
 }
 .birthday {
   display: block;

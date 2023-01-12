@@ -24,7 +24,7 @@ export default {
     this.defaultStyle = {
       fontColor: "#AFFFD7",
       fontSize: "10px",
-      lineHeight: "13px",
+      lineHeight: "12px",
       wordWrap: false,
     };
     this.activeStyle = {
@@ -62,7 +62,7 @@ export default {
           fullName: item.name,
           name: item.alias,
           img: require(`../../public${item.image}`),
-          top: '70%',
+          top: '80%',
         };
       });
       
@@ -84,7 +84,7 @@ export default {
             {
               src: item.img,
               width: '70%',
-              top: '3%',
+              top: '10%',
             },
           ],
         });
