@@ -121,7 +121,9 @@ export default {
 
 <style scoped>
 .lottery-turntable-component {
-  background-color: #fad3e6;
+  background-image: url(../assets/images/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   justify-content: center;
   align-items: center;

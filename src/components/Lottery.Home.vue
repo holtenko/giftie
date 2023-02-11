@@ -1,10 +1,10 @@
 <template>
   <div class="lottery-home-component full-screen">
-    <img class="cloud" src="../assets/images/cloud.png" alt="">
+    <!-- <img class="cloud" src="../assets/images/cloud.png" alt="">
     <img src="../assets/images/bird.png" alt="" class="bird">
     <img src="../assets/images/star-1.png" alt="" class="star">
-    <img src="../assets/images/star-2.png" alt="" class="star second">
-    <img class="birthday" src="../assets/images/happy-birthday.png" alt="">
+    <img src="../assets/images/star-2.png" alt="" class="star second"> -->
+    <img class="main-image" src="../assets/images/main-2.png" alt=""> 
     <div class="main">
       <h1 class="title">{{ title }}</h1>
       <p class="message" v-for="message in messages" :key="message.key">{{ message.wording }}</p>
@@ -65,10 +65,9 @@ export default {
   top: 100px;
   width: 90px;
 }
-.birthday {
+.main-image {
   display: block;
-  width: 100vw;
-  height: 97vw;
+  width: 70vw;
 }
 .star {
   position: absolute;
