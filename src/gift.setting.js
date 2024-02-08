@@ -6,12 +6,12 @@ export const GLOBAL_KEYS = {
 };
 
 // 是否允许对方在抽奖结束后重新抽奖
-export const IS_SHOW_RESTART = false;
+export const IS_SHOW_RESTART = true;
 
 // 首页配置
 export const homeConfig = {
   // 标题
-  title: '生日礼抽奖',
+  title: '情人节抽奖',
   // 留言，数组的每一项代表一行
   messages: [
     { key: 'a', wording: 'Only for Rita', },
